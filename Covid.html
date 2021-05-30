@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<style type="text/css">
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+  }
+  .contaner
+  {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom left,#99ffcc,#66c2ff);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+  }
+  .contaner2
+  {
+    width: 100%;
+    height: 90vh;
+    background-color: transparent;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  .div1,.div2,.div3,.div4
+  {
+    width: 20%;
+    min-height: 60%;
+    float: left;
+    background-image: linear-gradient(to bottom left,rgba(255,255,255,0.2),rgba(255,255,255,0.9));
+    margin-left: 2%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 6px rgba(0,0,0,0.2);
+    transition: 2s;
+  }
+  .div1:hover
+  {
+    cursor: pointer;
+    color: red;
+    box-shadow: none; 
+  }
+  .div2:hover
+  {
+    cursor: pointer;
+    color: red;
+    box-shadow: none; 
+  }
+  .div3:hover
+  {
+    cursor: pointer;
+    color: red;
+    box-shadow: none; 
+  }
+  .div4:hover
+  {
+    cursor: pointer;
+    color: red;
+    box-shadow: none; 
+  }
+  img
+  {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .divHead
+  {
+    font-size: 24px;
+    font-weight: 1000;
+  }
+  .heading
+  {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 30px;
+    width: 45%;
+    height: 10vh;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom left,rgba(255,255,255,0.2),rgba(255,255,255,0.9));
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+  }
+  button
+  {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #66c2ff;
+    cursor: pointer;
+    transition: 2s;
+  }
+  button:hover
+  {
+    width: 300px;
+    height: 40px;
+    box-shadow: inset 0px 0px 5px 5px lightblue;
+  }
+</style>
+
+<body>
+<section class="contaner">
+<div class="heading">
+  <h1>BASIC PROTECTION AGAINST<br>COVID-19</h1>
+</div>
+<br>
+<section class="contaner2">
+<div class="div1" id="d1">  
+  <img src="mask.jpg">  
+  <p class="divHead">WEAR A 
+  <br>MASK</p>
+  <br>
+  <p>Face covering are required 
+    <br>on campus at all times.</p>
+  <br>
+  <br>
+  <br>
+  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"><button>More</button></a>  
+</div>
+<div class="div2" id="d2">
+  <img src="distance.png">
+  <p class="divHead">PHYSICAL 
+  <br>DISTANCE</p>
+  <br>
+  <p>Maintain 6 feet between
+    <br>yourself and others.</p>
+  <br>
+  <br>
+  <br>
+  <a href="https://www.who.int/westernpacific/emergencies/covid-19/information/physical-distancing"><button>More</button></a>  
+</div>
+<div class="div3" id="d3">
+  <img src="wash.jpg">
+  <p class="divHead">WASH YOUR
+  <br>HANDS</p>
+  <br>
+  <p>Thoroughly scrub with 
+    <br>soap and water for at least 
+    <br>20 second and avoid
+   <br>touching your face.</p>
+  <br>
+  <a href="https://www.cdc.gov/handwashing/when-how-handwashing.html"><button>More</button></a> 
+</div>
+<div class="div4" id="d4">
+  <img src="fever.jpg">
+  <p class="divHead">FEEL SICK?
+  <br>STAY HOME</p>
+  <br>
+  <p>If you experience flu-like
+    <br>symptoms or feel unwell,
+    <br>stay home and contact your 
+    <br>health care provider.</p>
+  <br>
+  <a href="https://www.cdc.gov/flu/business/stay-home-when-sick.htm"><button>More</button></a>  
+</div>  
+</section>
+</section>  
+</body>
+
+</html>
